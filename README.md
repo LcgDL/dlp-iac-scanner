@@ -1,12 +1,12 @@
-# ☁️ Serverless DLP Scanner for IaC (Terraform) on GCP
+# Serverless DLP Scanner for IaC (Terraform) on GCP
 
 This project demonstrates how to build a **serverless DLP scanning pipeline** that analyzes Infrastructure-as-Code (IaC) files (e.g., Terraform) for **sensitive data** such as secrets, passwords, or API keys using **Google Cloud DLP, Cloud Functions, Pub/Sub, and BigQuery**.
 
-## 🚀 Overview
+## Overview
 
 **Goal:** Automate security checks for Terraform configurations and detect potential data leaks or secret exposures.
 
-### 🔧 Components
+### Components
 | Component | Technology | Purpose |
 |------------|-------------|----------|
 | Cloud Function | Python + google-cloud-dlp | Scan IaC for secrets |
@@ -15,7 +15,7 @@ This project demonstrates how to build a **serverless DLP scanning pipeline** th
 | Cloud Build | CI/CD | Automate Terraform security checks |
 | Looker Studio | Visualization | Dashboard for DLP results |
 
-### 📊 Architecture
+### Architecture
 
 ┌─────────────────┐    ┌──────────────────┐
 │   Terraform     │    │   Cloud Build    │
