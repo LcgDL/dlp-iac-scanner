@@ -1,0 +1,5 @@
+steps:
+  - name: "gcr.io/cloud-builders/terraform"
+    args: ["init"]
+  - name: "gcr.io/cloud-builders/terraform"
+    args: ["apply", "-auto-approve"]
